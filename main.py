@@ -28,7 +28,7 @@ print()
 
 # Finds and prints out the current total of grades * weights
 currentgrade = sum([(g[1]/100.0) * g[2] for g in grades if 0 <= g[1] <= 100.0])
-print(f"Current Total: {currentgrade}:.3f")
+print(f"Current Total: {currentgrade:.3f}")
 print()
 
 # Finds and prints out the grades (name, weight) to be evaluated
