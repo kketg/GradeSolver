@@ -2,6 +2,9 @@
 
 Calculate what grades you need on your remaining assignments to get certain final grades
 
+## Dependencies 
+scipy
+
 ## Usage
 `python main.py <grades>`
 
